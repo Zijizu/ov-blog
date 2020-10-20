@@ -1,0 +1,11 @@
+baseURL = "https://openvalue.blog/"
+languageCode = "en-US"
+title = "OpenValue | Blog"
+theme = "openvalue-blog-theme"
+author = "authors"
+tag = "tags"
+category = "categories"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
