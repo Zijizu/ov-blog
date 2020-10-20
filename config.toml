@@ -1,4 +1,5 @@
-baseURL = "https://openvalue.blog/"
+baseURL = "https://github.com/Zijizu/ovb-posts/"
+publishDir = "docs"
 languageCode = "en-US"
 title = "OpenValue | Blog"
 theme = "openvalue-blog-theme"
