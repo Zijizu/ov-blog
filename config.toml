@@ -1,4 +1,4 @@
-baseURL = "https://github.com/Zijizu/ovb-posts/"
+baseURL = "https://zijizu.github.io/ovb-posts/"
 themesDir = "themes"
 publishDir = "docs"
 languageCode = "en-US"
