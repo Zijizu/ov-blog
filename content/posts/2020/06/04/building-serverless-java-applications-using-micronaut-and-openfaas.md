@@ -4,7 +4,7 @@ date: 2020-06-04
 authors: ["Paulien van Alst"]
 summary: When working on microservices in the Java ecosystem, especially using Spring (Boot), you will notice the long start-up time that applications will have, let alone the high memory consumption they will have. The overhead of each single microservice will eventually take its costs on the system. Looking at a framework such as Micronaut could help out to reduce this overhead without loosing any developer's productivity. Not only "classic" applications can be built using Micronaut, but also serverless applications, functions, can be built and deployed on a cloud environment or on Kubernetes using OpenFaaS. Let's dive into it!
 images:
-  - /posts/2020/06/04/images/cover-img.jpg
+  - posts/2020/06/04/images/cover-img.jpg
 caption: Image by Tayeb MEZAHDIA from Pixabay
 ---
 # Building serverless Java applications using Micronaut and OpenFaaS
@@ -45,7 +45,7 @@ Coming from the Spring world, you won't be surprised to find the following in th
 
 During this article, we will be building the following application:
 
-![](/posts/2020/06/04/images/bookstore-arch.png#image-center-50)
+![](../images/bookstore-arch.png#image-center-50)
 
 A simple application will serve a book given an author. To do so, it will call a function that returns all the books of an author.
 

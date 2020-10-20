@@ -4,7 +4,7 @@ date: 2020-05-28
 authors: ["Kevin Berendsen"]
 summary: "This article will cover a deep learning introduction and create a ML model that will be able to classify Star Wars aircrafts in just a few lines of code using Java Specification Request #JSR-381 (“JSR-381”)."
 images:
-  - /posts/2020/05/28/images/cover-img.jpg
+  - posts/2020/05/28/images/cover-img.jpg
 caption: Image by Pete Linforth from Pixabay
 ---
 # JSR-381: A Standard Java API for Visual Recognition using Machine Learning
@@ -46,7 +46,7 @@ MNIST is the most known multiclass classification ML model. MNIST is able to cla
 
 Deep learning is a specific ML technique based on using multiple neural network layers. There are different algorithms but the one that’s often applied for image classification is called convolutional neural network. This type of algorithm has adaptive image filtering through network layers and then performs the classification on the trained model and results into labeled output like you would with any classifier.
 
-![](/posts/2020/05/28/images/image1.png#image-center-75)\
+![](../images/image1.png#image-center-75)\
 *Image 1: Architecture of convolutional neural network(source:http://www.deepnetts.com/blog/from-linear-regression-to-deep-learning-in-5-minutes.html)*
 
 ### Use the Force to Learn about ML
@@ -55,9 +55,9 @@ Now that we have a basic understanding of the use of classification and deep lea
 
 <div class="clearfix">
 
-![](/posts/2020/05/28/images/image4.png#image-two)
+![](../images/image4.png#image-two)
 
-![](/posts/2020/05/28/images/image5.png#image-two)
+![](../images/image5.png#image-two)
 
 </div>
 
@@ -142,7 +142,7 @@ The architecture of the neural network is defined in a JSON file and copied from
 
 ```
 
-![](/posts/2020/05/28/images/image2.png#image-center-40)\
+![](../images/image2.png#image-center-40)\
 *Image 2: Architecture visualized using DeepNetts Platform*
 
 Next we export our model to a file and set that parameter as well. It’s completely optional but training the model may take some time and you don’t want to retrain the model each time you wish to use it.
@@ -180,7 +180,7 @@ The maxEpochs setting sets the maximum amount of iterations before stopping the 
 
 Finally, we’ve trained the model! Now I’d like to classify an image that was not used in the dataset and see if my model can identify it. I randomly took images of the Tie Fighter and the Millennium Falcon from Google search and ran it into the model. The ImageClassifier accepts the generic type, InputStream or File as input:
 
-![](/posts/2020/05/28/images/image3.png#image-center-40)\
+![](../images/image3.png#image-center-40)\
 *Image 3: Tie Fighter image used as input*
 
 ```

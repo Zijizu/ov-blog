@@ -4,7 +4,7 @@ date: 2020-05-21
 authors: ["Roy Wasse"]
 summary: We started OpenValue almost 2 years ago. One of the key values of our company is sharing knowledge. Next to fun and craftsmanship. This all comes together with our activities in the international Java community. I’ll explain why.
 images:
-  - /posts/2020/05/21/images/cover-img.jpg
+  - posts/2020/05/21/images/cover-img.jpg
 caption: Photo by Headway on Unsplash
 ---
 # Why we gave 50+ tech talks at 19 conferences

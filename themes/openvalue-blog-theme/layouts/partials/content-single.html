@@ -15,7 +15,7 @@
                 {{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
                 {{ with $.Site.GetPage $path }}
                 <div>
-                    <img src="/images{{ $path }}.jpg" onerror="this.src='/images{{ $path }}.png'">
+                    <img src="../../../../../images{{ $path }}.jpg" onerror="this.src='../../../../../images{{ $path }}.png'">
                 </div>
                 <div>
                     <h1>{{ .Params.name }}</h1>

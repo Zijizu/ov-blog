@@ -4,7 +4,7 @@ date: 2020-09-30
 authors: ["fanda"]
 summary: Spring Boot has been around for some time and still seems to be the most popular framework when it comes to building modern web applications. Similarly about Kotlin language. It’s not as old as Spring framework but it’s been highly accepted and used by many developers. To me, it’s no surprise that people behind Spring (Pivotal) put the Kotlin language almost at the same level as Java when it comes to integration into the framework itself.
 images:
-  - /posts/2020/09/30/images/cover-img.jpg
+  - posts/2020/09/30/images/cover-img.jpg
 caption:
 ---
 # From Spring Web MVC to WebFlux
@@ -114,7 +114,7 @@ Reactive programming = paradigm that allows building non-blocking (async) applic
 
 Both of the frameworks are still sharing some modules and can work side be side independently. Both frameworks support asynchronous and [reactive types](https://spring.io/blog/2016/04/19/understanding-reactive-types), but when it comes to writes to response then Web MVC is using **BLOCKING** approach (separate thread execution). WebFlux relies in this case on **NON-BLOCKING I/O** and doesn't requrie extra thread as its asynchronous by design (concept of event loop).
 
-![](/posts/2020/09/30/images/image1.png#image-center-75)\
+![](../images/image1.png#image-center-75)\
 *Diagram taken from WebFlux documentation*
 
 ### Functional REST API endpoints
